@@ -15,7 +15,7 @@ setup(
     url="{{cookiecutter.url}}",
     author="{{cookiecutter.author_name}}",
     author_email=f"{{cookiecutter.author_email}}",
-    license="{{cookiecutter.license}}",
+    license="MIT",
     packages=find_packages(include=["{{cookiecutter.package_name}}", "{{cookiecutter.package_name}}/*"]),
     setup_requires=[],
     tests_require=[],
