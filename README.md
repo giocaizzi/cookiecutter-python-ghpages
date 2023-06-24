@@ -23,8 +23,6 @@ Features:
         - Upload code coverage to [codecov](https://codecov.io/)
     - Publish to [PyPI](https://pypi.org/) on `release` event
     - Build documentation on `push` and `pull_request` events on `gh-pages` branch
-    - Pre-checks:
-        - Lint all `push` events to `main`, filtering on RST errors, to avoid breaking the documentation
-        - Pre-check that the documentation builds, on every `pull_request` event to `main`.
+    - Lint with flake8 - using also [flake8-rst-docstrings](https://github.com/peterjc/flake8-rst-docstrings/tree/master) to catch RST formatting errors - on all `push` and `pull_request` events to `main`.
 - MIT License
 
