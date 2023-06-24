@@ -14,3 +14,12 @@ Features:
     - Optimized for [GitHub Pages](https://pages.github.com/), with separate branches for `main` and `gh-pages`
     - Read the Docs theme with [sphinx_rtd_theme](https://sphinx-rtd-theme.readthedocs.io/en/stable/)
     - Render jupyter notebooks with [nbsphinx](https://nbsphinx.readthedocs.io/en/latest/)
+- Continuous Integration with [GitHub Actions](
+    https://docs.github.com/en/actions)
+    - Run tests on `main` and `pull_request` events
+        - Upload code coverage to [codecov](https://codecov.io/)
+    - Publish to [PyPI](https://pypi.org/) on `release` event
+    - Build documentation on `push` and `pull_request` events on `gh-pages` branch
+    - Pre-checks:
+        - Lint all `push` events to `main`, filtering on RST errors, to avoid breaking the documentation
+        - Pre-check that the documentation builds, on every `pull_request` event to `main`.
