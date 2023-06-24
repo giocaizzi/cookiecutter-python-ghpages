@@ -26,4 +26,4 @@ jobs:
 # this linting considers also RST errors for Building the docs
 
     - name: Lint with flake8
-      run : flake8 {{cookieutter.package_name}}
+      run : flake8 {{cookiecutter.package_name}}
