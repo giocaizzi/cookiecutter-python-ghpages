@@ -5,5 +5,8 @@
     "author_email":"",
     "github_username":"",
     "year":"",
-    "url":""
+    "url":"",
+    "_copy_without_render": [
+        "{{cookiecutter.package_name}}/docsrc/source/_templates"
+    ]
 }
