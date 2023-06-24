@@ -1,6 +1,6 @@
 # cookiecutter-python-ghpages
 
-This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter) template for a Python package with Documentation that lives on GitHub Pages.
+This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter) template for a Python package with Documentation hosted on GitHub Pages.
 
 Features:
 
