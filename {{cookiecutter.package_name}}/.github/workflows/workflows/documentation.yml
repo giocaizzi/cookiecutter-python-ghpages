@@ -1,3 +1,5 @@
+{% raw %}
+
 name: Documentation build
 
 on:
@@ -55,3 +57,5 @@ jobs:
       with:
         branch: gh-pages
         github_token: ${{ secrets.GITHUB_TOKEN }}
+
+{% endraw %}

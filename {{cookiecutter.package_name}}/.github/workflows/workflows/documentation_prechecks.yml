@@ -1,3 +1,5 @@
+{% raw %}
+
 name: Documentation build - precheck
 
 on:
@@ -59,3 +61,4 @@ jobs:
         make github-action
         cd ..
 
+{% endraw %}
