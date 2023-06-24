@@ -2,8 +2,8 @@
 
 __author__ = "{{cookiecutter.author_name}}"
 __email__ = "{{cookiecutter.author_email}}"
-__license__ = "{{cookiecutter.license}}"
-__copyright__ = f"{{cookiecutter.copyright}}"
+__license__ = "MIT"
+__copyright__ = "Copyright (c) {{cookiecutter.year}} {{cookiecutter.author_name}}"
 __url__ = "{{cookiecutter.url}}"
 
 

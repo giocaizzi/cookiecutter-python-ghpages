@@ -17,12 +17,11 @@ sys.path.insert(0, os.path.abspath("../.."))
 
 
 # -- Project information -----------------------------------------------------
-project = "{{cookiecutter.package_name}}"
-copyright = "{{cookiecutter.copyright}}"
-author = "{{cookiecutter.author}}}"
-
-# The full version, including alpha/beta/rc tags
 import {{cookiecutter.package_name}}
+project = "{{cookiecutter.package_name}}"
+
+copyright = {{cookiecutter.package_name}}.__copyright__
+author = {{cookiecutter.package_name}}.__author__
 
 release = {{cookiecutter.package_name}}.__version__
 version = {{cookiecutter.package_name}}.__version__

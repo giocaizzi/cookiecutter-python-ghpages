@@ -23,3 +23,4 @@ Features:
     - Pre-checks:
         - Lint all `push` events to `main`, filtering on RST errors, to avoid breaking the documentation
         - Pre-check that the documentation builds, on every `pull_request` event to `main`.
+- MIT License
