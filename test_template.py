@@ -24,7 +24,6 @@ def bake(cookies):
         })
     return result
 
-
 def test_build_success(bake):
     result = bake
 
