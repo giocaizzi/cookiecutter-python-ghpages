@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="{{cookiecutter.package_name}}",
-    version="0.0.1  ",
+    version="0.0.1",
     description="{{cookiecutter.short_description}}",
     long_description_content_type="text/markdown",
     long_description=long_description,
